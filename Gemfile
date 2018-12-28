@@ -15,7 +15,7 @@ gem 'jquery-rails'
 gem 'active_model_serializers'
 gem 'acts_as_votable', '~> 0.10.0'
 gem 'bundler'
-gem 'bootstrap', '~> 4.0.0.alpha3'
+gem "bootstrap", ">= 4.1.2"
 # bootstrap requires tether
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.1.0'
